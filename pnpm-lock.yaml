@@ -15,15 +15,9 @@ importers:
       '@apollo/client':
         specifier: ^3.11.2
         version: 3.11.2(graphql@16.9.0)
-      '@tsconfig/node20':
-        specifier: ^20.1.4
-        version: 20.1.4
       '@vue/apollo-option':
         specifier: ^4.0.0
         version: 4.0.0(@apollo/client@3.11.2(graphql@16.9.0))(vue@3.4.35(typescript@5.4.5))
-      '@vue/tsconfig':
-        specifier: ^0.5.1
-        version: 0.5.1
       vue-tsc:
         specifier: ^2.0.21
         version: 2.0.29(typescript@5.4.5)
@@ -72,9 +66,6 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
-
-  '@tsconfig/node20@20.1.4':
-    resolution: {integrity: sha512-sqgsT69YFeLWf5NtJ4Xq/xAF8p4ZQHlmGW74Nu2tD4+g5fAsposc4ZfaaPixVu4y01BEiDCWLRDCvDM5JOsRxg==}
 
   '@volar/language-core@2.4.0-alpha.18':
     resolution: {integrity: sha512-JAYeJvYQQROmVRtSBIczaPjP3DX4QW1fOqW1Ebs0d3Y3EwSNRglz03dSv0Dm61dzd0Yx3WgTW3hndDnTQqgmyg==}
@@ -130,9 +121,6 @@ packages:
 
   '@vue/shared@3.4.35':
     resolution: {integrity: sha512-hvuhBYYDe+b1G8KHxsQ0diDqDMA8D9laxWZhNAjE83VZb5UDaXl9Xnz7cGdDSyiHM90qqI/CyGMcpBpiDy6VVQ==}
-
-  '@vue/tsconfig@0.5.1':
-    resolution: {integrity: sha512-VcZK7MvpjuTPx2w6blwnwZAu5/LgBUtejFOi3pPGQFXQN5Ela03FUtd2Qtg4yWGGissVL0dr6Ro1LfOFh+PCuQ==}
 
   '@wry/caches@1.0.1':
     resolution: {integrity: sha512-bXuaUNLVVkD20wcGBWRyo7j9N3TxePEWFZj2Y+r9OoUzfqmavM84+mFykRicNsBqatba5JLay1t48wxaXaWnlA==}
@@ -351,8 +339,6 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@tsconfig/node20@20.1.4': {}
-
   '@volar/language-core@2.4.0-alpha.18':
     dependencies:
       '@volar/source-map': 2.4.0-alpha.18
@@ -442,8 +428,6 @@ snapshots:
       vue: 3.4.35(typescript@5.4.5)
 
   '@vue/shared@3.4.35': {}
-
-  '@vue/tsconfig@0.5.1': {}
 
   '@wry/caches@1.0.1':
     dependencies:
