@@ -1,22 +1,9 @@
 {
   "include": ["Test.vue"],
   "compilerOptions": {
-    "baseUrl": ".",
-
-    // Most non-library projects don't need to emit declarations.
-    // So we add this option by default to make the config more friendly to most users.
-    "noEmit": true,
-
     "module": "ESNext",
-
     "moduleResolution": "bundler",
-
     "noImplicitThis": true,
-
-    "verbatimModuleSyntax": true,
-
-    "target": "ESNext",
-
     "skipLibCheck": true
   }
 }
