@@ -1,5 +1,5 @@
 {
-  "include": ["src/components/Test.vue", "src/main.ts"],
+  "include": ["src/components/Test.vue"],
   "compilerOptions": {
     "baseUrl": ".",
 
