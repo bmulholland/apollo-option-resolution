@@ -1,9 +1,10 @@
 {
-  "include": ["Test.vue"],
+  "include": ["test.ts"],
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "bundler",
     "noImplicitThis": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true
   }
 }

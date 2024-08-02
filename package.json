@@ -4,13 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "typescript": "^5.5.4",
     "vue": "^3.4.35"
   },
   "devDependencies": {
     "@vue/apollo-option": "^4.0.0",
-    "vue-tsc": "^2.0.29"
+    "vue": "latest"
   }
 }
