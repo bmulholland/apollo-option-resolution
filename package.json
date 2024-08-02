@@ -8,9 +8,7 @@
   },
   "dependencies": {
     "typescript": "^5.5.4",
-    "vue": "^3.4.35"
-  },
-  "devDependencies": {
+    "vue": "^3.4.35",
     "@vue/apollo-option": "^4.0.0"
   }
 }
