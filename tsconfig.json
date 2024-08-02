@@ -1,15 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [
-    "env.d.ts",
-    "src/components/Test.vue",
-    "src/App.vue",
-    "src/main.ts",
-    "src/router/index.ts"
-  ],
+  "include": ["src/components/Test.vue", "src/main.ts"],
   "compilerOptions": {
-    "composite": true,
-    "strict": false,
     "noImplicitThis": true,
     "baseUrl": "."
   }
