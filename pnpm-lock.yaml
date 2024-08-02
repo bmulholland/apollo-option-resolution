@@ -8,15 +8,9 @@ importers:
 
   .:
     dependencies:
-      pinia:
-        specifier: ^2.1.7
-        version: 2.2.0(typescript@5.4.5)(vue@3.4.35(typescript@5.4.5))
       vue:
         specifier: ^3.4.29
         version: 3.4.35(typescript@5.4.5)
-      vue-router:
-        specifier: ^4.3.3
-        version: 4.4.2(vue@3.4.35(typescript@5.4.5))
     devDependencies:
       '@apollo/client':
         specifier: ^3.11.2
@@ -27,21 +21,12 @@ importers:
       '@types/jsdom':
         specifier: ^21.1.7
         version: 21.1.7
-      '@types/node':
-        specifier: ^20.14.5
-        version: 20.14.14
       '@vue/apollo-option':
         specifier: ^4.0.0
         version: 4.0.0(@apollo/client@3.11.2(graphql@16.9.0))(vue@3.4.35(typescript@5.4.5))
       '@vue/tsconfig':
         specifier: ^0.5.1
         version: 0.5.1
-      graphql:
-        specifier: latest
-        version: 16.9.0
-      graphql-tag:
-        specifier: latest
-        version: 2.12.6(graphql@16.9.0)
       jsdom:
         specifier: ^24.1.0
         version: 24.1.1
@@ -138,9 +123,6 @@ packages:
 
   '@vue/compiler-vue2@2.7.16':
     resolution: {integrity: sha512-qYC3Psj9S/mfu9uVi5WvNZIzq+xnXMhOwbTFKKDD7b1lhpnn71jXSFdTQ+WsIEk0ONCd7VV2IMm7ONl6tbQ86A==}
-
-  '@vue/devtools-api@6.6.3':
-    resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
 
   '@vue/language-core@2.0.29':
     resolution: {integrity: sha512-o2qz9JPjhdoVj8D2+9bDXbaI4q2uZTHQA/dbyZT4Bj1FR9viZxDJnLcKVHfxdn6wsOzRgpqIzJEEmSSvgMvDTQ==}
@@ -348,18 +330,6 @@ packages:
   picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
 
-  pinia@2.2.0:
-    resolution: {integrity: sha512-iPrIh26GMqfpUlMOGyxuDowGmYousTecbTHFwT0xZ1zJvh23oQ+Cj99ZoPQA1TnUPhU6AuRPv6/drkTCJ0VHQA==}
-    peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.3.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-      typescript:
-        optional: true
-
   postcss@8.4.40:
     resolution: {integrity: sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==}
     engines: {node: ^10 || ^12 || >=14}
@@ -467,22 +437,6 @@ packages:
 
   vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
-
-  vue-demi@0.14.10:
-    resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-
-  vue-router@4.4.2:
-    resolution: {integrity: sha512-1qNybkn2L7QsLzaXs8nvlQmRKp8XF8DCxZys/Jr1JpQcHsKUxTKzTxCVA1G7NfBfwRIBgCJPoujOG5lHCCNUxw==}
-    peerDependencies:
-      vue: ^3.2.0
 
   vue-tsc@2.0.29:
     resolution: {integrity: sha512-MHhsfyxO3mYShZCGYNziSbc63x7cQ5g9kvijV7dRe1TTXBRLxXyL0FnXWpUF1xII2mJ86mwYpYsUmMwkmerq7Q==}
@@ -651,8 +605,6 @@ snapshots:
     dependencies:
       de-indent: 1.0.2
       he: 1.2.0
-
-  '@vue/devtools-api@6.6.3': {}
 
   '@vue/language-core@2.0.29(typescript@5.4.5)':
     dependencies:
@@ -874,14 +826,6 @@ snapshots:
 
   picocolors@1.0.1: {}
 
-  pinia@2.2.0(typescript@5.4.5)(vue@3.4.35(typescript@5.4.5)):
-    dependencies:
-      '@vue/devtools-api': 6.6.3
-      vue: 3.4.35(typescript@5.4.5)
-      vue-demi: 0.14.10(vue@3.4.35(typescript@5.4.5))
-    optionalDependencies:
-      typescript: 5.4.5
-
   postcss@8.4.40:
     dependencies:
       nanoid: 3.3.7
@@ -959,15 +903,6 @@ snapshots:
       requires-port: 1.0.0
 
   vscode-uri@3.0.8: {}
-
-  vue-demi@0.14.10(vue@3.4.35(typescript@5.4.5)):
-    dependencies:
-      vue: 3.4.35(typescript@5.4.5)
-
-  vue-router@4.4.2(vue@3.4.35(typescript@5.4.5)):
-    dependencies:
-      '@vue/devtools-api': 6.6.3
-      vue: 3.4.35(typescript@5.4.5)
 
   vue-tsc@2.0.29(typescript@5.4.5):
     dependencies:

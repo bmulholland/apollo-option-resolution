@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 
 import App from './App.vue'
-import router from './router'
 
 import { ApolloClient, InMemoryCache } from '@apollo/client/core'
 
@@ -21,7 +20,5 @@ const apolloProvider = createApolloProvider({
 const app = createApp(App)
 
 app.use(apolloProvider)
-
-app.use(router)
 
 app.mount('#app')

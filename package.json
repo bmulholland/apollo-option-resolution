@@ -15,19 +15,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "pinia": "^2.1.7",
-    "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@apollo/client": "^3.11.2",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^20.14.5",
     "@vue/apollo-option": "^4.0.0",
     "@vue/tsconfig": "^0.5.1",
-    "graphql": "latest",
-    "graphql-tag": "latest",
     "jsdom": "^24.1.0",
     "typescript": "~5.4.0",
     "vue-tsc": "^2.0.21"
