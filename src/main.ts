@@ -12,13 +12,3 @@ const apolloClient = new ApolloClient({
 })
 
 import { createApolloProvider } from '@vue/apollo-option'
-
-const apolloProvider = createApolloProvider({
-  defaultClient: apolloClient
-})
-
-const app = createApp(App)
-
-app.use(apolloProvider)
-
-app.mount('#app')
