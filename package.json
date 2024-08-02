@@ -7,11 +7,11 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "vue": "^3.4.29"
+    "vue": "^3.4.35"
   },
   "devDependencies": {
     "@apollo/client": "^3.11.2",
     "@vue/apollo-option": "^4.0.0",
-    "vue-tsc": "^2.0.21"
+    "vue-tsc": "^2.0.29"
   }
 }
