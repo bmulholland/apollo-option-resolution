@@ -1,9 +1,6 @@
 {
   "include": ["test.ts"],
   "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "noImplicitThis": true,
     "skipLibCheck": true,
     "strict": true
   }
