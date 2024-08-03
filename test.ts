@@ -1,5 +1,5 @@
-import { createApolloProvider } from "@vue/apollo-option";
 import { defineComponent } from "vue";
+import "types/index";
 
 export default defineComponent({
   methods: {
