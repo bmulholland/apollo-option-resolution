@@ -10,7 +10,6 @@ import {
   FetchResult,
   Observable,
 } from "@apollo/client/core/index.js";
-import { ApolloProvider } from "./apollo-provider";
 import {
   VueApolloQueryDefinition,
   VueApolloSubscriptionDefinition,
@@ -63,7 +62,6 @@ export interface DollarApollo<V> extends ApolloClientMethods {
   readonly vm: V;
   readonly queries: Record<string, SmartQuery<V>>;
   readonly subscriptions: Record<string, SmartSubscription<V>>;
-  readonly provider: ApolloProvider;
   readonly loading: boolean;
 
   // writeonly not yet implemented in TypeScript: https://github.com/Microsoft/TypeScript/issues/21759
