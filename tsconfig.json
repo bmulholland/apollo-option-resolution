@@ -1,5 +1,5 @@
 {
-  "include": ["test.ts", "types/index.d.ts"],
+  "include": ["test.ts"],
   "compilerOptions": {
     "skipLibCheck": true,
     "strict": true
