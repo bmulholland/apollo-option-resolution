@@ -1,10 +1,10 @@
 import { createApolloProvider } from "@vue/apollo-option";
 import { defineComponent } from "vue";
 
-defineComponent({
+export default defineComponent({
   methods: {
-    test(): void {
-      this.$apollo;
+    test() {
+      return this.$apollo;
     },
   },
 });
