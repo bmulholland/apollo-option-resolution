@@ -1,5 +1,4 @@
 import { DollarApollo } from "./vue-apollo";
-import { VueApolloComponentOptions } from "./options";
 import { ApolloProvider } from "./apollo-provider";
 
 declare module "@vue/runtime-core" {
@@ -17,21 +16,7 @@ declare module "@vue/runtime-core" {
     Defaults = {},
   > {
     apolloProvider?: ApolloProvider;
-    apollo?: VueApolloComponentOptions<
-      CreateComponentPublicInstance<
-        Props,
-        RawBindings,
-        D,
-        C,
-        M,
-        Mixin,
-        Extends,
-        E,
-        Props,
-        Defaults,
-        false
-      >
-    >;
+    apollo?: object;
   }
 
   interface ComponentCustomProperties {
