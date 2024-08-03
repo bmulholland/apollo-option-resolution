@@ -1,5 +1,4 @@
 import { defineComponent } from "vue";
-import "types/index";
 
 export default defineComponent({
   methods: {
