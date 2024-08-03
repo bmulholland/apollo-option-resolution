@@ -1,5 +1,4 @@
 import { DollarApollo } from "./vue-apollo";
-import { ApolloProvider } from "./apollo-provider";
 
 declare module "@vue/runtime-core" {
   interface ComponentOptionsBase<
@@ -15,7 +14,6 @@ declare module "@vue/runtime-core" {
     // eslint-disable-next-line @typescript-eslint/ban-types
     Defaults = {},
   > {
-    apolloProvider?: ApolloProvider;
     apollo?: object;
   }
 
