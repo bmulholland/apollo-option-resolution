@@ -1,4 +1,4 @@
-interface DollarApollo<V> {}
+import { DollarApollo } from "./vue-apollo";
 
 declare module "@vue/runtime-core" {
   interface ComponentOptionsBase<
