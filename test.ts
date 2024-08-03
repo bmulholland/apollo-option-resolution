@@ -1,6 +1,6 @@
 import { defineComponent } from "vue";
 
-export interface DollarApollo {}
+interface DollarApollo {}
 
 declare module "@vue/runtime-core" {
   interface ComponentCustomProperties {
