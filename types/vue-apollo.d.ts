@@ -1,1 +1,1 @@
-export interface DollarApollo<V> {}
+export interface DollarApollo {}
