@@ -18,7 +18,6 @@ declare module "@vue/runtime-core" {
   }
 
   interface ComponentCustomProperties {
-    $apolloProvider: ApolloProvider;
     $apollo: DollarApollo<this>;
   }
 }
